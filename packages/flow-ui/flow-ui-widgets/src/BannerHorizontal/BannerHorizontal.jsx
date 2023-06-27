@@ -41,7 +41,7 @@ const BannerHorizontal = () => {
     <Flex sx={styles.wrapper(banner && banner.src)}>
       <Box sx={styles.left}>
         <Heading variant='h3' sx={styles.heading}>
-          The latest IT market analysis report - May 2020
+          The latest market analysis report - Q1 2023
         </Heading>
         <Text sx={styles.subheading}>This month's analysis is a must see.</Text>
       </Box>
