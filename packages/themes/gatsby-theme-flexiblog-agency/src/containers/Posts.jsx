@@ -54,7 +54,7 @@ const Posts = ({
       </Stack>
       <Divider space={5} />
       {posts.group.length &&
-        posts.group.map((group, index) => (
+        posts.group.reverse().map((group, index) => (
           <React.Fragment key={`${group.categoryName}.list`}>
             {index % 2 === 0 ? (
               <Stack
