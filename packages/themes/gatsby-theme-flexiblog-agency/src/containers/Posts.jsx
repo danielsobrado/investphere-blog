@@ -16,6 +16,9 @@ const Posts = ({
   const { pageContext: { services = {} } = {} } = props
   const categories = useBlogCategories()
 
+  let sortedCategories = categories.sort((a, b) => b.name.localeCompare(a.name));
+  let reversedCategories = sortedCategories.reverse(); 
+
   return (
     <Layout {...props}>
       <Seo title='Home' />
