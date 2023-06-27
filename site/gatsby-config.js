@@ -6,7 +6,13 @@ module.exports = {
         // Add theme options here. Check documentation for available options.
         siteUrl: process.env.URL || process.env.VERCEL_URL
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: `content/assets/favicon.png`, // This path is relative to the root of the site.
+      },
+    },
   ],
   // Customize your site metadata:
   siteMetadata: {
@@ -14,7 +20,7 @@ module.exports = {
     title: 'We talk about investements',
     name: 'Investphere',
     description: 'We talk about investements',
-    address: 'Denpasar, Bali, 80263 Indonesia',
+    address: 'Denpasar, Bali, 80263',
     email: 'daniel@danielsobrado.com',
     phone: '+1 (888) 888-8888',
 
