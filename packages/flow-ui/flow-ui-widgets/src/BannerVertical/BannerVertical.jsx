@@ -55,16 +55,15 @@ const BannerVertical = () => (
   <Flex sx={styles.wrapper}>
     <Heading variant='h2' sx={styles.heading}>
       <FaRegHandshake />
-      Best Networking Workshops
+      Start Networking
     </Heading>
     <Heading variant='h4' sx={styles.subheading}>
-      In this workshop, learn when and how to network with modern best
-      practices.
+    In the dynamic world of investments, networking is key to uncovering new opportunities and gaining fresh perspectives.
     </Heading>
     <Text as='ul' variant='small' sx={styles.list}>
-      <li>Explain the importance of networking for career-building</li>
-      <li>Practice modern tips for effective networking</li>
-      <li>Understand the steps towards building your own network</li>
+      <li>Collaborate with peers on projects and studies</li>
+      <li>Foster relationships through regular follow-ups and interactions</li>
+      <li>Share your insights and opinions</li>
     </Text>
     <Button
       variant='primary'
