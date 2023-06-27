@@ -11,11 +11,11 @@ module.exports = {
   // Customize your site metadata:
   siteMetadata: {
     //General Site Metadata
-    title: 'FlexiBlog Theme',
-    name: 'FlexiBlog',
-    description: 'My site description...',
-    address: 'New York, NY',
-    email: 'email@example.com',
+    title: 'We talk about investements',
+    name: 'Investphere',
+    description: 'We talk about investements',
+    address: 'Denpasar, Bali, 80263 Indonesia',
+    email: 'daniel@danielsobrado.com',
     phone: '+1 (888) 888-8888',
 
     //Site Social Media Links
