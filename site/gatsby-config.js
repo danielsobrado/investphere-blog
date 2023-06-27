@@ -56,7 +56,7 @@ module.exports = {
         title: 'Quick Links',
         items: [
           {
-            name: 'Advertise with us',
+            name: 'Hire us',
             slug: '/contact'
           },
           {
