@@ -22,7 +22,7 @@ module.exports = {
     description: 'We talk about investements',
     address: 'Denpasar, Bali, 80263',
     email: 'daniel@danielsobrado.com',
-    phone: '+1 (888) 888-8888',
+    phone: '',
 
     //Site Social Media Links
     social: [
