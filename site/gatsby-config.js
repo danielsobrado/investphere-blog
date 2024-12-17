@@ -17,9 +17,9 @@ module.exports = {
   // Customize your site metadata:
   siteMetadata: {
     //General Site Metadata
-    title: 'We talk about investements',
+    title: 'We talk about investments',
     name: 'Investphere',
-    description: 'We talk about investements',
+    description: 'We talk about investments,
     address: 'Denpasar, Bali, 80263',
     email: 'daniel@danielsobrado.com',
     phone: '',
